@@ -1,0 +1,35 @@
+# Local-only reference projects (not part of this repo)
+openai-wikipedia-mcp/
+
+# Secrets and local environment (commit only *.env.example)
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+*~
+.idea/
+.vscode/
+
+# Claude Code local settings (shared settings.json is fine to commit)
+**/.claude/settings.local.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# Node / TypeScript
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
