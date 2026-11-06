@@ -1,0 +1,2 @@
+MCP Sampling lets a server ask the connected client to run an LLM completion.
+The client keeps the API key and asks the user to approve each request.

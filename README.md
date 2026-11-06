@@ -6,6 +6,7 @@ Hands-on practice projects for learning to work with Claude and AI coding tools 
 
 | Project | Stack | What it covers |
 | --- | --- | --- |
+| [`wikipedia-mcp/`](wikipedia-mcp) | Python, MCP SDK, Anthropic API | An MCP server that researches and summarizes Wikipedia articles. Demonstrates **Sampling**, **logging notifications**, and **progress notifications**. The reference client uses the Anthropic Messages API. |
 | [`ai-tools-training/`](ai-tools-training) | TypeScript, NestJS, PostgreSQL | A small banking domain built with **Event Sourcing** and **CQRS**. Used to practice Claude Code workflows: `CLAUDE.md`, skills, subagents, and documentation generation. |
 
 > **`ai-tools-training/` is a git submodule** that points to its own repository,
@@ -23,13 +24,25 @@ Then follow the README inside the project.
 
 ### Prerequisites
 
-- Node.js 24.15+ (see `.nvmrc` in the project)
-- Docker (for PostgreSQL)
+| Project | Needs |
+| --- | --- |
+| `wikipedia-mcp` | Python 3.11+, [`uv`](https://docs.astral.sh/uv/), and an Anthropic API key |
+| `ai-tools-training` | Node.js 24.15+ (see `.nvmrc`) and Docker |
+
+### Quick start: Wikipedia MCP
+
+```bash
+cd wikipedia-mcp
+uv sync --extra dev
+cp .env.example .env        # then add your API key
+uv run python client.py
+```
 
 ## Repository layout
 
 ```text
 claude-training/
+├── wikipedia-mcp/          # MCP Sampling demo (Anthropic)
 └── ai-tools-training/      # NestJS Event Sourcing practice (submodule)
 ```
 
