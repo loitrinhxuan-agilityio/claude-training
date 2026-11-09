@@ -1,0 +1,11 @@
+competitor,segment,region,list_price_usd,effective_price_usd,market_share_pct,q3_win_rate_pct,q3_deals_contested,avg_sales_cycle_days,primary_differentiator,top_loss_reason,notes
+Northwind Analytics,Enterprise,North America,2400,1980,18.4,42.1,76,68,Mature governance and audit trail,Perceived feature parity at lower cost,Discounting aggressively on 3-year terms; renewals cluster in Q4.
+Vertexa Cloud,Enterprise,EMEA,2150,1720,14.7,38.6,57,74,EU data residency,Procurement favored incumbent,Won two of our named accounts on residency requirements alone.
+Larkspur Data,Mid-Market,North America,890,760,11.2,55.3,94,31,Fast self-serve onboarding,Our onboarding seen as heavier,Strongest in 50-250 seat deals; weak above 500 seats.
+Quilt Metrics,Mid-Market,APAC,740,610,8.9,61.0,63,27,Local-language support,Price,Expanding into ANZ; support quality reported inconsistent.
+Ironvale Systems,Enterprise,North America,3100,2790,7.6,47.8,41,96,On-prem deployment option,Security review timeline,Only serious contender in air-gapped RFPs.
+Pell & Roe Suite,SMB,EMEA,320,290,6.3,68.4,118,14,Bundled with accounting tools,Bundle economics,Low ARPU but high volume; rarely reaches our evaluation stage.
+Helio Insight,Mid-Market,EMEA,960,845,5.8,52.2,69,38,Prebuilt vertical templates,Template breadth,Retail and logistics templates are genuinely ahead of ours.
+Caldera BI,Enterprise,APAC,1980,1600,5.1,44.9,35,81,Aggressive services attach,Implementation partner network,Wins land-and-expand via SI partners rather than direct.
+Tessellate,SMB,North America,280,240,4.4,71.6,142,11,Lowest entry price,Price,High churn reported by prospects who switched to us.
+Mornay Group,Enterprise,EMEA,2600,2340,3.9,49.5,28,88,Regulated-industry references,Reference strength in banking,Narrow but defensible footprint in financial services.
